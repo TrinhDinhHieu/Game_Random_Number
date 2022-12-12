@@ -10,7 +10,10 @@ export default function OverScreen() {
       <View style={styles.imageContainer}>
     <Image source={require('../asset/background.jpg')} style={styles.image}/>
       </View>
+      <Text style={styles.textEnd}> END GAME </Text>
+      <Text style={styles.textEnd}>PLEASE START AGAIN</Text>
      {/*  Custom màu Text trong Text */}
+      
        {/* <Text> Vị trí bạn cần đánh dấu  <Text>X</Text> ,<Text>Y</Text> </Text> */}
     </View>
   )
@@ -37,5 +40,10 @@ const styles=StyleSheet.create({
   image:{
     height:'100%',
     width:'100%'
+  },
+  textEnd:{
+    fontSize:32,
+    color:'white',
+
   }
 })

@@ -85,3 +85,4 @@ const styles = StyleSheet.create({
 });
 // muốn thêm styles vào các thẻ View, text , .. thì sd [ ]
 // VD style = {[styles.TextNumber, styles.numberInput] }
+// nếu muốn custom style ở component khác thì để biến là style
